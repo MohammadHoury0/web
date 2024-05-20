@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --MainDarkMode: #363036;
+    --NavDarkMode: #221E22;
+    --TextDarkMode: #B2B4A7;
+    --TextHoverDarkMode: #9b816f;
+}
+
+
+@keyframes progress {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
+.progress-bar {
+    width: 0;
+    animation: progress 5s linear forwards;
+}
